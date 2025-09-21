@@ -19,7 +19,7 @@ if($favResult -> num_rows >0){
                 mysqli_query($conn,$sqlDeleteLike);
     
                 echo "<script>
-                        var linkid = '$url'+'.php#Ad'+$id;
+                        var linkid = " . json_encode($url) . "+'.php#Ad'+$id;
                         window.location.replace(linkid);
                     </script>";
              
@@ -31,7 +31,7 @@ else{
         mysqli_query($conn,$sqlAddLike);
 
         echo "<script>
-                var linkid = '$url'+'.php#Ad'+$id;
+                var linkid = " . json_encode($url) . "+'.php#Ad'+$id;
                 window.location.replace(linkid);
             </script>";                    
     
