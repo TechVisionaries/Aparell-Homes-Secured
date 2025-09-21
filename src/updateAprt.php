@@ -1,5 +1,6 @@
 <?php
     include_once 'config.php';
+    include 'includes/security-headers.php';
 ?>
 <!-- uploading file -->
 <?php 
