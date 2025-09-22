@@ -1,8 +1,8 @@
 <?php
+    session_start();
     include_once "config.php";
 ?>
 <?php
-    session_start();
 
     $logStat = false;
     $acc = '';

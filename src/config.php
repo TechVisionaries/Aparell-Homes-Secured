@@ -4,6 +4,10 @@
     $_SESSION['profile'] = 'images/user.png';
     }
 
+    if (!isset($_SESSION['LoginStat'])) {
+    $_SESSION['LoginStat'] = false;
+    }
+
     //declare variables
     $server = "localhost";
     $username = "root";

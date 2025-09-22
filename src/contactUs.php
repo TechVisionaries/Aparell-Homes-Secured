@@ -1,9 +1,9 @@
 
-<?php
+<?php    
+    session_start();
     require_once "config.php";
 ?>
 <?php
-    session_start();
 
     $logStat = false;
     $acc = '';
