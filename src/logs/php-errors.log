@@ -1,0 +1,1704 @@
+[21-Sep-2025 19:30:51 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'add'a' AND accType='buyer'' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php:14
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php(14): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php on line 14
+[21-Sep-2025 19:30:53 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'add'a' AND accType='buyer'' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php:14
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php(14): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php on line 14
+[21-Sep-2025 19:30:56 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'add'a' AND accType='buyer'' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php:14
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php(14): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php on line 14
+[21-Sep-2025 19:30:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Data truncated for column 'aprtID' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php:31
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php(31): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php on line 31
+[21-Sep-2025 19:30:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php:31
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php(31): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php on line 31
+[21-Sep-2025 19:30:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Data truncated for column 'aprtID' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php:31
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php(31): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php on line 31
+[21-Sep-2025 19:30:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Data truncated for column 'aprtID' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php:31
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php(31): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php on line 31
+[21-Sep-2025 19:30:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where 0 in (select sleep(15) ) -- '' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php:12
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php(12): mysqli->query('SELECT aprtID F...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php on line 12
+[21-Sep-2025 19:30:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Data truncated for column 'aprtID' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php:31
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php(31): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php on line 31
+[21-Sep-2025 19:30:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Data truncated for column 'aprtID' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php:31
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php(31): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php on line 31
+[21-Sep-2025 19:31:39 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\viewApartment.php on line 53
+[21-Sep-2025 19:31:39 Europe/Berlin] [2] Undefined variable $acc in C:\xampp\htdocs\Aparell-Homes-Secured\src\viewApartment.php on line 56
+[21-Sep-2025 19:31:39 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' where 0 in (select sleep(15) ) --' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\viewApartment.php:76
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\viewApartment.php(76): mysqli->query('select * from a...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\viewApartment.php on line 76
+[21-Sep-2025 19:31:39 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\viewApartment.php on line 53
+[21-Sep-2025 19:31:39 Europe/Berlin] [2] Undefined variable $acc in C:\xampp\htdocs\Aparell-Homes-Secured\src\viewApartment.php on line 56
+[21-Sep-2025 19:31:39 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '" where 0 in (select sleep(15) ) --' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\viewApartment.php:76
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\viewApartment.php(76): mysqli->query('select * from a...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\viewApartment.php on line 76
+[21-Sep-2025 19:31:39 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\viewApartment.php on line 53
+[21-Sep-2025 19:31:39 Europe/Berlin] [2] Undefined variable $acc in C:\xampp\htdocs\Aparell-Homes-Secured\src\viewApartment.php on line 56
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'fName' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SYSTEM_COLUMNS' and COLUMN_NAME = 'TABLE_NAME' -- %' AND  approved = '1' order b' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php:174
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php(174): mysqli->query('select * from a...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 174
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'select "java.lang.Thread.sleep"(15000) from INFORMATION_SCHEMA.SYSTEM_COLUMNS wh' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php:174
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php(174): mysqli->query('select * from a...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 174
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SYSTEM_COLUMNS' and COLUMN_NAME = 'TABLE_NAME' -- %' AND  approved = '1' order b' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php:174
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php(174): mysqli->query('select * from a...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 174
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SYSTEM_COLUMNS' and COLUMN_NAME = 'TABLE_NAME' -- %' AND  approved = '1' order b' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php:174
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php(174): mysqli->query('select * from a...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 174
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'system_columns' and column_name = 'table_name' -- ' AND password='ZAP' AND accTy' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php:14
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php(14): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php on line 14
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'select "java.lang.thread.sleep"(15000) from information_schema.system_columns wh' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php:14
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php(14): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php on line 14
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'lName' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/ "java.lang.Thread.sleep"(15000) / '%' AND  approved = '1' order by price ASC' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php:174
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php(174): mysqli->query('select * from a...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 174
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'system_columns' and column_name = 'table_name' -- ' AND password='ZAP' AND accTy' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php:14
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php(14): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php on line 14
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SYSTEM_COLUMNS' and COLUMN_NAME = 'TABLE_NAME') -- %' AND  approved = '1' order ' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php:174
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php(174): mysqli->query('select * from a...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 174
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'system_columns' and column_name = 'table_name' -- ' AND password='ZAP' AND accTy' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php:14
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php(14): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php on line 14
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(15000) from INFORMATION_SCHEMA.SYSTEM_COLUMNS where TABLE_NAME = 'SYSTEM_COLUMN' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php:174
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php(174): mysqli->query('select * from a...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 174
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SYSTEM_COLUMNS' and COLUMN_NAME = 'TABLE_NAME' -- ' AND  approved = '1'' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php:174
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php(174): mysqli->query('select * from a...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 174
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(15000) / '' AND password='ZAP' AND accType='buyer'' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php:14
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php(14): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php on line 14
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'select "java.lang.Thread.sleep"(15000) from INFORMATION_SCHEMA.SYSTEM_COLUMNS wh' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php:174
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php(174): mysqli->query('select * from a...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 174
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SYSTEM_COLUMNS' and COLUMN_NAME = 'TABLE_NAME' -- ' AND  approved = '1'' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php:174
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php(174): mysqli->query('select * from a...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 174
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'system_columns' and column_name = 'table_name') -- ' AND password='ZAP' AND accT' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php:14
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php(14): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php on line 14
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(15000) from information_schema.system_columns where table_name = 'system_column' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php:14
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php(14): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php on line 14
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SYSTEM_COLUMNS' and COLUMN_NAME = 'TABLE_NAME' -- ' AND accType='buyer'' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php:14
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php(14): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php on line 14
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SYSTEM_COLUMNS' and COLUMN_NAME = 'TABLE_NAME' -- ' AND  approved = '1'' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php:174
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php(174): mysqli->query('select * from a...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 174
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SYSTEM_COLUMNS' and COLUMN_NAME = 'TABLE_NAME' -- ','9999999999','ZAP')' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'select "java.lang.Thread.sleep"(15000) from INFORMATION_SCHEMA.SYSTEM_COLUMNS wh' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php:14
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php(14): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php on line 14
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '; select "java.lang.Thread.sleep"(15000) from INFORMATION_SCHEMA.SYSTEM_COLUMNS ' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SYSTEM_COLUMNS' and COLUMN_NAME = 'TABLE_NAME' -- ' AND accType='buyer'' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php:14
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php(14): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php on line 14
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SYSTEM_COLUMNS' and COLUMN_NAME = 'TABLE_NAME' -- ','9999999999','ZAP')' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SYSTEM_COLUMNS' and COLUMN_NAME = 'TABLE_NAME' -- ' AND accType='buyer'' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php:14
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php(14): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php on line 14
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SYSTEM_COLUMNS' and COLUMN_NAME = 'TABLE_NAME' -- ','9999999999','ZAP')' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'accType' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(15000) / '' AND  approved = '1'' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php:174
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php(174): mysqli->query('select * from a...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 174
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'accType' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(15000) / '' AND accType='buyer'' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php:14
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php(14): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php on line 14
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(15000) / '','9999999999','ZAP')' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'accType' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SYSTEM_COLUMNS' and COLUMN_NAME = 'TABLE_NAME') -- ' AND  approved = '1'' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php:174
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php(174): mysqli->query('select * from a...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 174
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SYSTEM_COLUMNS' and COLUMN_NAME = 'TABLE_NAME') -- ' AND accType='buyer'' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php:14
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php(14): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php on line 14
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SYSTEM_COLUMNS' and COLUMN_NAME = 'TABLE_NAME') -- ','9999999999','ZAP')' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(15000) from INFORMATION_SCHEMA.SYSTEM_COLUMNS where TABLE_NAME = 'SYSTEM_COLUMN' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php:174
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php(174): mysqli->query('select * from a...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 174
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(15000) from INFORMATION_SCHEMA.SYSTEM_COLUMNS where TABLE_NAME = 'SYSTEM_COLUMN' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(15000) from INFORMATION_SCHEMA.SYSTEM_COLUMNS where TABLE_NAME = 'SYSTEM_COLUMN' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php:14
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php(14): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php on line 14
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SYSTEM_COLUMNS' and COLUMN_NAME = 'TABLE_NAME' -- ' AND  approved = '1' order by' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php:174
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php(174): mysqli->query('select * from a...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 174
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'system_columns' and column_name = 'table_name' -- ','ZAP','ZAP','','buyer','9999' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SYSTEM_COLUMNS' and COLUMN_NAME = 'TABLE_NAME' -- '' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php:14
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php(14): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php on line 14
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'select "java.lang.Thread.sleep"(15000) from INFORMATION_SCHEMA.SYSTEM_COLUMNS wh' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php:174
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php(174): mysqli->query('select * from a...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 174
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '; select "java.lang.thread.sleep"(15000) from information_schema.system_columns ' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'select "java.lang.Thread.sleep"(15000) from INFORMATION_SCHEMA.SYSTEM_COLUMNS wh' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php:14
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php(14): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php on line 14
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'system_columns' and column_name = 'table_name' -- ','ZAP','ZAP','','buyer','9999' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SYSTEM_COLUMNS' and COLUMN_NAME = 'TABLE_NAME' -- ' AND  approved = '1' order by' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php:174
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php(174): mysqli->query('select * from a...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 174
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SYSTEM_COLUMNS' and COLUMN_NAME = 'TABLE_NAME' -- '' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php:14
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php(14): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php on line 14
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'system_columns' and column_name = 'table_name' -- ','ZAP','ZAP','','buyer','9999' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SYSTEM_COLUMNS' and COLUMN_NAME = 'TABLE_NAME' -- ' AND  approved = '1' order by' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php:174
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php(174): mysqli->query('select * from a...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 174
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SYSTEM_COLUMNS' and COLUMN_NAME = 'TABLE_NAME' -- '' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php:14
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php(14): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php on line 14
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(15000) / '','ZAP','ZAP','','buyer','9999999999','ZAP')' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(15000) / ''' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php:14
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php(14): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php on line 14
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(15000) / '' AND  approved = '1' order by price ASC' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php:174
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php(174): mysqli->query('select * from a...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 174
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'system_columns' and column_name = 'table_name') -- ','ZAP','ZAP','','buyer','999' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SYSTEM_COLUMNS' and COLUMN_NAME = 'TABLE_NAME') -- '' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php:14
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php(14): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php on line 14
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SYSTEM_COLUMNS' and COLUMN_NAME = 'TABLE_NAME') -- ' AND  approved = '1' order b' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php:174
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php(174): mysqli->query('select * from a...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 174
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(15000) from information_schema.system_columns where table_name = 'system_column' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(15000) from INFORMATION_SCHEMA.SYSTEM_COLUMNS where TABLE_NAME = 'SYSTEM_COLUMN' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php:14
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php(14): mysqli->query('SELECT * FROM u...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\login.php on line 14
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(15000) from INFORMATION_SCHEMA.SYSTEM_COLUMNS where TABLE_NAME = 'SYSTEM_COLUMN' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php:174
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php(174): mysqli->query('select * from a...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 174
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SYSTEM_COLUMNS' and COLUMN_NAME = 'TABLE_NAME' -- ','ZAP')' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '; select "java.lang.Thread.sleep"(15000) from INFORMATION_SCHEMA.SYSTEM_COLUMNS ' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SYSTEM_COLUMNS' and COLUMN_NAME = 'TABLE_NAME' -- ','ZAP')' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SYSTEM_COLUMNS' and COLUMN_NAME = 'TABLE_NAME' -- ','ZAP')' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '"java.lang.Thread.sleep"(15000)' for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(15000) / '','ZAP')' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SYSTEM_COLUMNS' and COLUMN_NAME = 'TABLE_NAME') -- ','ZAP')' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(15000) from INFORMATION_SCHEMA.SYSTEM_COLUMNS where TABLE_NAME = 'SYSTEM_COLUMN' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SYSTEM_COLUMNS' and COLUMN_NAME = 'TABLE_NAME' -- ')' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '; select "java.lang.Thread.sleep"(15000) from INFORMATION_SCHEMA.SYSTEM_COLUMNS ' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SYSTEM_COLUMNS' and COLUMN_NAME = 'TABLE_NAME' -- ')' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SYSTEM_COLUMNS' and COLUMN_NAME = 'TABLE_NAME' -- ')' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(15000) / '')' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SYSTEM_COLUMNS' and COLUMN_NAME = 'TABLE_NAME' -- ' AND aprtID = '6 '' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php:12
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php(12): mysqli->query('SELECT aprtID F...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php on line 12
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'select "java.lang.Thread.sleep"(15000) from INFORMATION_SCHEMA.SYSTEM_COLUMNS wh' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php:12
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php(12): mysqli->query('SELECT aprtID F...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php on line 12
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SYSTEM_COLUMNS' and COLUMN_NAME = 'TABLE_NAME') -- ')' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(15000) from INFORMATION_SCHEMA.SYSTEM_COLUMNS where TABLE_NAME = 'SYSTEM_COLUMN' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined variable $dp in C:\xampp\htdocs\Aparell-Homes-Secured\src\searchApartment.php on line 68
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SYSTEM_COLUMNS' and COLUMN_NAME = 'TABLE_NAME' -- ' AND aprtID = '6 '' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php:12
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php(12): mysqli->query('SELECT aprtID F...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php on line 12
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SYSTEM_COLUMNS' and COLUMN_NAME = 'TABLE_NAME' -- ' AND aprtID = '6 '' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php:12
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php(12): mysqli->query('SELECT aprtID F...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php on line 12
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'accType' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php:31
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php(31): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php on line 31
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'accType' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php:31
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php(31): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php on line 31
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(15000) / '' AND aprtID = '6 '' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php:12
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php(12): mysqli->query('SELECT aprtID F...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php on line 12
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Data too long for column 'accType' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php:31
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php(31): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php on line 31
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SYSTEM_COLUMNS' and COLUMN_NAME = 'TABLE_NAME') -- ' AND aprtID = '6 '' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php:12
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php(12): mysqli->query('SELECT aprtID F...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php on line 12
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(15000) from INFORMATION_SCHEMA.SYSTEM_COLUMNS where TABLE_NAME = 'SYSTEM_COLUMN' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php:12
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php(12): mysqli->query('SELECT aprtID F...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php on line 12
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Out of range value for column 'phoneNo' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php:40
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php(40): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\createAcc.php on line 40
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SYSTEM_COLUMNS' and COLUMN_NAME = 'TABLE_NAME' -- ' AND accType = ' ' AND aprtID' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php:12
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php(12): mysqli->query('SELECT aprtID F...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php on line 12
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'select "java.lang.Thread.sleep"(15000) from INFORMATION_SCHEMA.SYSTEM_COLUMNS wh' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php:12
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php(12): mysqli->query('SELECT aprtID F...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php on line 12
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SYSTEM_COLUMNS' and COLUMN_NAME = 'TABLE_NAME' -- ' AND accType = ' ' AND aprtID' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php:12
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php(12): mysqli->query('SELECT aprtID F...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php on line 12
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SYSTEM_COLUMNS' and COLUMN_NAME = 'TABLE_NAME' -- ' AND accType = ' ' AND aprtID' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php:12
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php(12): mysqli->query('SELECT aprtID F...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php on line 12
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:31:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(15000) / '' AND accType = ' ' AND aprtID = '6 '' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php:12
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php(12): mysqli->query('SELECT aprtID F...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php on line 12
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SYSTEM_COLUMNS' and COLUMN_NAME = 'TABLE_NAME') -- ' AND accType = ' ' AND aprtI' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php:12
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php(12): mysqli->query('SELECT aprtID F...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php on line 12
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(15000) from INFORMATION_SCHEMA.SYSTEM_COLUMNS where TABLE_NAME = 'SYSTEM_COLUMN' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php:12
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php(12): mysqli->query('SELECT aprtID F...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php on line 12
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SYSTEM_COLUMNS' and COLUMN_NAME = 'TABLE_NAME' -- '' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php:12
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php(12): mysqli->query('SELECT aprtID F...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php on line 12
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'select "java.lang.Thread.sleep"(15000) from INFORMATION_SCHEMA.SYSTEM_COLUMNS wh' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php:12
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php(12): mysqli->query('SELECT aprtID F...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php on line 12
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SYSTEM_COLUMNS' and COLUMN_NAME = 'TABLE_NAME' -- '' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php:12
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php(12): mysqli->query('SELECT aprtID F...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php on line 12
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SYSTEM_COLUMNS' and COLUMN_NAME = 'TABLE_NAME' -- '' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php:12
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php(12): mysqli->query('SELECT aprtID F...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php on line 12
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Incorrect integer value: '"java.lang.Thread.sleep"(15000)' for column 'aprtID' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php:31
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php(31): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php on line 31
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Data truncated for column 'aprtID' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php:31
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php(31): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php on line 31
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(15000) / ''' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php:12
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php(12): mysqli->query('SELECT aprtID F...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php on line 12
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Data truncated for column 'aprtID' at row 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php:31
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php(31): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php on line 31
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SYSTEM_COLUMNS' and COLUMN_NAME = 'TABLE_NAME') -- '' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php:12
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php(12): mysqli->query('SELECT aprtID F...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php on line 12
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(15000) from INFORMATION_SCHEMA.SYSTEM_COLUMNS where TABLE_NAME = 'SYSTEM_COLUMN' at line 1 in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php:12
+Stack trace:
+#0 C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php(12): mysqli->query('SELECT aprtID F...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\likeAprt.php on line 12
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Undefined array key "imgFrm" in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] [2] Trying to access array offset on value of type null in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 19:32:00 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php:17
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\Aparell-Homes-Secured\src\addAprt.php on line 17
+[21-Sep-2025 20:16:26 Europe/Berlin] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Aparell-Homes-Secured\src\viewApartment.php on line 76
+[21-Sep-2025 20:16:26 Europe/Berlin] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Aparell-Homes-Secured\src\viewApartment.php on line 8
+[21-Sep-2025 20:16:26 Europe/Berlin] PHP Fatal error:  Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Aparell-Homes-Secured\src\viewApartment.php on line 8

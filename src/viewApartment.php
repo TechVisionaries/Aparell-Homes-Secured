@@ -1,10 +1,14 @@
 
 <?php
-require_once "config.php";
+    session_start();
+    require_once "config.php";
 ?>
 <?php
-    session_start();
 
+    $logStat = false;
+    $acc = '';
+    $dp = 'images/user.png';
+    
     if(isset($_SESSION['LoginStat'])){
         $logStat = $_SESSION['LoginStat'];
 
@@ -50,6 +54,7 @@ require_once "config.php";
 
             <!-- Profile icon -->
             <div id="profile">
+                <?php if ($logStat === true): ?>
                 <img src="<?php echo $dp ?>" height="50px" alt="profile" onmouseover="showDpNav();" onmouseout="hideDpNav();" style="border-radius:50%";>
                 <div>
                     <ul id="dpNav" onmouseover="showDpNav();" onmouseout="hideDpNav();">
@@ -57,6 +62,9 @@ require_once "config.php";
                         <a href="logout.php"><li>Log Out</li></a>
                     </ul>
                 </div>
+                <?php else: ?>
+                    <style>#profile { display: none; }</style>
+                <?php endif; ?>
             </div>
 
             <!-- Dark Mode toggle switch

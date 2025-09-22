@@ -1,9 +1,9 @@
 <?php
+    session_start();
     include_once 'config.php';
 ?>
 <!-- uploading file -->
 <?php 
-    session_start();
     if(isset($_SESSION['count'])){
 
     }
@@ -12,17 +12,20 @@
     }    
 
     $id = $_SESSION['count'];
-
     $target_dir = "images/Apartments/";
-    $fileCount = count($_FILES['imgFrm']['name']);
-    $target_file = array();
+    $fileCount = 0;
+    $target_file = [];
 
+    if (isset($_FILES['imgFrm']) && is_array($_FILES['imgFrm']['name'])) {
+    $fileCount = count($_FILES['imgFrm']['name']);
+    
     for($i = 0; $i < $fileCount; $i++){
         $target_file[$i] = $target_dir . $id . "_" .basename($_FILES["imgFrm"]["name"][$i]);
         if(isset($_FILES["imgFrm"])) {
             //check if file exists
             if (file_exists($target_file[$i])) {
                 echo "Sorry, file already exists.";
+                error_log("File already exists: " . $target_file[$i]);
             }
             elseif (move_uploaded_file($_FILES["imgFrm"]["tmp_name"][$i],$target_file[$i])){
                 continue;
@@ -34,7 +37,13 @@
         else{
             echo "File not available";
         }
-    }    
+    }   
+
+    }
+    else{
+        echo "No files selected";
+    }
+     
 
     $_SESSION['count'] += 1;
 
@@ -50,7 +59,15 @@
     $description = htmlspecialchars($_POST['description']);
     $price = $_POST['price'];
     $nego = isset($_POST['nego']);
-    $sellerMail = $_SESSION['Email'];
+
+    if (isset($_SESSION['Email'])) {
+        $sellerMail = $_SESSION['Email'];
+    } else {
+        // Handle missing email (e.g., user not logged in)
+        error_log("Missing 'Email' in session");
+        header("Location: loginHTML.php");
+        exit();
+    }
 
     //insert values
     $sql = "INSERT INTO apartments(adType,beds,baths,size,country,city,town,addrs,title,description,price,negotiable,img1,img2,img3,approved,sellerMail) VALUES('$adType','$beds','$baths','$size','$country','$city','$town','$addrs','$title','$description','$price','$nego','$target_file[0]','$target_file[1]','$target_file[2]','NULL','$sellerMail');";
