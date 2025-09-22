@@ -1,9 +1,13 @@
 <?php
 
+    if (!isset($_SESSION['profile'])) {
+    $_SESSION['profile'] = 'images/user.png';
+    }
+
     //declare variables
     $server = "localhost";
     $username = "root";
-    $password = "";
+    $password = "root";
     $db = "apartment sales system";
 
     //create connection

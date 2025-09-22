@@ -1,6 +1,7 @@
 
 <?php
-require_once "config.php";
+    include_once "error-handler.php";
+    require_once "config.php";
 ?>
 <?php
     require "checkAccTypeSeller.php";
