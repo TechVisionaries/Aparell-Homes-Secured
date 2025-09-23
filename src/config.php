@@ -11,7 +11,7 @@
     //declare variables
     $server = "localhost";
     $username = "root";
-    $password = "root";
+    $password = "";
     $db = "apartment sales system";
 
     //create connection

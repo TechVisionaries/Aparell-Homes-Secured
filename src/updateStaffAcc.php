@@ -39,23 +39,29 @@
 
     //update values
     $sql2 = "UPDATE users
-            SET fName = '$firstName',
-                lName = '$lastName',
-                addrs = '$address',
-                phoneNo = $phone,
-                password = '$pwd',
-                profile = '$target_file'
-            WHERE email = '$email' AND accType = '$accType';";  
-            
+            SET fName = ?,
+                lName = ?,
+                addrs = ?,
+                phoneNo = ?,
+                password = ?,
+                profile = ?
+            WHERE email = ? AND accType = ?";
 
-    if(mysqli_query($conn,$sql2)){
+    $stmt2 = $conn->prepare($sql2);
+    $stmt2->bind_param("sssssssss", $firstName, $lastName, $address, $phone, $pwd, $target_file, $email, $accType);
+    $stmt2->execute();
+
+    //check connection        
+    //display sccessful message
+    if($stmt2->affected_rows > 0){
         echo "<script>
                 var acctype = '$accType';
                 alert('Successfully Updated!');
                 window.location.replace(acctype+'Dash.php');
               </script>";
-        
+
     }
+    //display unsuccessful message
     else{
         echo "<script>
                 var acctype = '$accType';
