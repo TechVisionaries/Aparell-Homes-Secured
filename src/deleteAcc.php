@@ -15,11 +15,13 @@
         }
     }  
 
-    $sql2 = "DELETE FROM users WHERE email = '$email' AND accType = '$acc'";
+    $sql2 = "DELETE FROM users WHERE email = ? AND accType = ?";
     $sqlDeleteAprt = "DELETE FROM apartments WHERE sellerMail = '$email'";
     $sqlDeletefav = "DELETE FROM userfavs WHERE email = '$email' AND accType = '$acc'";
 
-    if(mysqli_query($conn,$sql2)){
+    $stmt2 = $conn->prepare($sql2);
+    $stmt2->bind_param("ss", $email, $acc);
+    if($stmt2->execute()){
         if($dp != "images/user.png"){
             unlink("$dp");
         }
