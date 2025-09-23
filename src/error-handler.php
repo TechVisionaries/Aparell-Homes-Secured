@@ -1,7 +1,7 @@
 <?php
 header("X-Content-Type-Options: nosniff");
 header("X-Frame-Options: DENY");
-header("Content-Security-Policy: default-src 'self'; script-src 'self' https://apis.google.com 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:");
+header("Content-Security-Policy: default-src 'self'; script-src 'self' https://apis.google.com 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;frame-ancestors 'none';");
 
 ini_set('display_errors', 'Off');
 ini_set('log_errors', 'On');
