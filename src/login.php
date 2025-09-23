@@ -3,6 +3,7 @@
     session_start();
     include_once 'error-handler.php';
     include_once 'config.php';
+    header("Content-Security-Policy: default-src 'self'; script-src 'self' https://apis.google.com 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; frame-ancestors 'none'; base-uri 'self'; form-action 'self'");
 ?>
 <?php
     $email = strtolower($_POST['email'] ?? '');
