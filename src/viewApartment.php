@@ -79,9 +79,12 @@
              /* selected apartment details*/ 
             $apartmentID=$_GET["apartmentID"];
 
-            $sql = "select * from apartments A, users U where A.sellerMail = U.email AND U.accType = 'seller' AND aprtID={$apartmentID}";
+            $sql = "select * from apartments A, users U where A.sellerMail = U.email AND U.accType = 'seller' AND aprtID=?";
             $city = "";
-            $result = $conn->query($sql);
+            $stmt = $conn->prepare($sql);
+            $stmt->bind_param("i", $apartmentID);
+            $stmt->execute();
+            $result = $stmt->get_result();
             
             if($result -> num_rows>0){
                 while($row = $result->fetch_assoc()){
