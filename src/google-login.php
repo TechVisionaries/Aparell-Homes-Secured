@@ -3,8 +3,8 @@ session_start();
 include_once 'config.php';
 
 // Google OAuth configuration
-$client_id = '283315803916-nedouh9bp5kiekkepefvhvtfg5ivatm0.apps.googleusercontent.com';
-$client_secret = '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';
+$client_id = //client id;
+$client_secret = //client secret;
 $redirect_uri = 'http://localhost/Aparell-Homes-Secured/src/google-login.php';
 
 if (!isset($_GET['code']) && isset($_GET['accType'])) {
