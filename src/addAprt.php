@@ -70,9 +70,11 @@
     }
 
     //insert values
-    $sql = "INSERT INTO apartments(adType,beds,baths,size,country,city,town,addrs,title,description,price,negotiable,img1,img2,img3,approved,sellerMail) VALUES('$adType','$beds','$baths','$size','$country','$city','$town','$addrs','$title','$description','$price','$nego','$target_file[0]','$target_file[1]','$target_file[2]','NULL','$sellerMail');";
+    $sql = "INSERT INTO apartments(adType,beds,baths,size,country,city,town,addrs,title,description,price,negotiable,img1,img2,img3,approved,sellerMail) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,NULL,?)";
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("siisssssssisssss", $adType, $beds, $baths, $size, $country, $city, $town, $addrs, $title, $description, $price, $nego, $target_file[0], $target_file[1], $target_file[2], $sellerMail);
 
-    if(mysqli_query($conn,$sql)){
+    if($stmt->execute()){
         echo "<script>
                 alert('Successfully Posted!');
                 window.location.replace('pendingAprovals.php');
