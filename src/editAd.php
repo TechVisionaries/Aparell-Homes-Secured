@@ -6,9 +6,12 @@
 require "checkAccTypeSeller.php";
 
     $id = $_GET['aprtID'];
-    $sql = "SELECT * FROM apartments WHERE aprtID = $id";
+    $sql = "SELECT * FROM apartments WHERE aprtID = ?";
 
-    $result = $conn->query($sql);
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("i", $id);
+    $stmt->execute();
+    $result = $stmt->get_result();
     $row = $result->fetch_assoc();
 
     $adType = $row['adType'];

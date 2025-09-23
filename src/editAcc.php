@@ -10,9 +10,11 @@
     $_SESSION['ManageUserMail'] = $email;
     $_SESSION['ManageUseraccType'] = $acc;
 
-    $sql = "SELECT * FROM users WHERE email = '$email' AND accType = '$acc'";
-    
-    $result = $conn -> query($sql);
+    $sql = "SELECT * FROM users WHERE email = ? AND accType = ?";
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("ss", $email, $acc);
+    $stmt->execute();
+    $result = $stmt->get_result();
 
     while($row = $result -> fetch_assoc()){
         $fname = $row['fName'];
