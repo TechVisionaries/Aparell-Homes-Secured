@@ -14,11 +14,12 @@ $favResult = $conn -> query($sqlFav);
 if($favResult -> num_rows >0){
     while($favRow = $favResult -> fetch_assoc()){
         $favId = $favRow['aprtID'];
-    
-                $sqlDeleteLike = "DELETE FROM userfavs WHERE email = '$email' AND accType = '$acc' AND aprtID = $id";
-    
-                mysqli_query($conn,$sqlDeleteLike);
-    
+
+                $sqlDeleteLike = "DELETE FROM userfavs WHERE email = ? AND accType = ? AND aprtID = ?";
+                $stmtDeleteLike = $conn->prepare($sqlDeleteLike);
+                $stmtDeleteLike->bind_param("ssi", $email, $acc, $favId);
+                $stmtDeleteLike->execute();
+
                 echo "<script>
                         var linkid = " . json_encode($url) . "+'.php#Ad'+$id;
                         window.location.replace(linkid);
@@ -27,9 +28,11 @@ if($favResult -> num_rows >0){
     }
 }
 else{
-        $sqlAddLike = "INSERT INTO userfavs(email,accType,aprtID) VALUES('$email','$acc','$id')";
+        $sqlAddLike = "INSERT INTO userfavs(email,accType,aprtID) VALUES(?, ?, ?)";
 
-        mysqli_query($conn,$sqlAddLike);
+        $stmtAddLike = $conn->prepare($sqlAddLike);
+        $stmtAddLike->bind_param("ssi", $email, $acc, $id);
+        $stmtAddLike->execute();
 
         echo "<script>
                 var linkid = " . json_encode($url) . "+'.php#Ad'+$id;
