@@ -24,7 +24,7 @@ if($favResult -> num_rows >0){
                 $stmtDeleteLike->execute();
 
                 echo "<script>
-                        var linkid = " . json_encode($url) . "+'.php#Ad'+$id;
+                        var linkid = " . json_encode($url) . "+'.php#Ad'+" . json_encode($id) . ";
                         window.location.replace(linkid);
                     </script>";
              
@@ -38,7 +38,7 @@ else{
         $stmtAddLike->execute();
 
         echo "<script>
-                var linkid = " . json_encode($url) . "+'.php#Ad'+$id;
+                var linkid = " . json_encode($url) . "+'.php#Ad'+" . json_encode($id) . ";
                 window.location.replace(linkid);
             </script>";                    
     
