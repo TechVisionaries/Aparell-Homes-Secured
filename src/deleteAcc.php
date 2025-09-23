@@ -45,7 +45,7 @@
     }
     else{
         echo "<script>
-                let type = '$acc';
+                let type = " . json_encode($acc) . ";
                 alert('Unsuccessfull!');
                 window.location.replace(type+'Dash.php');
               </script>";
