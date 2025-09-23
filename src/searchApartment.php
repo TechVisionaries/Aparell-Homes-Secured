@@ -154,32 +154,47 @@
                 $filter = $_POST["sortBy"];
                 $flag = False;
                     
-                $sql2 = "select * from apartments where (title like '%{$SearchPhrase}%') AND (beds = '{$noOfRooms}') AND (baths = '{$noOfBaths}') AND  approved = '1'";
+                $sql2 = "select * from apartments where (title like ?) AND (beds = ?) AND (baths = ?) AND  approved = '1'";
                 if($noOfRooms == '-'){
-                    $sql2 = "select * from apartments where title like '%{$SearchPhrase}%' AND baths = '{$noOfBaths}' AND  approved = '1'";
+                    $sql2 = "select * from apartments where title like ? AND baths = ? AND  approved = '1'";
                     if($filter=='Low Price'){
-                        $sql2 = "select * from apartments where title like '%{$SearchPhrase}%' AND baths = '{$noOfBaths}' AND  approved = '1' order by price ASC";
+                        $sql2 = "select * from apartments where title like ? AND baths = ? AND  approved = '1' order by price ASC";
                     }
                     elseif($filter=='High Price'){
-                        $sql2 = "select * from apartments where title like '%{$SearchPhrase}%' AND baths = '{$noOfBaths}' AND  approved = '1' order by price DESC";
+                        $sql2 = "select * from apartments where title like ? AND baths = ? AND  approved = '1' order by price DESC";
                     }
                     if($noOfBaths == '-'){
-                        $sql2 = "SELECT * FROM apartments WHERE title LIKE '%$SearchPhrase%' AND  approved = '1'";
+                        $sql2 = "SELECT * FROM apartments WHERE title LIKE ? AND  approved = '1'";
                         if($filter=='Low Price'){
-                            $sql2 = "select * from apartments where title like '%{$SearchPhrase}%' AND  approved = '1' order by price ASC";
+                            $sql2 = "select * from apartments where title like ? AND  approved = '1' order by price ASC";
                         }
                         elseif($filter=='High Price'){
-                            $sql2 = "select * from apartments where title like '%{$SearchPhrase}%' AND  approved = '1' order by price DESC";
+                            $sql2 = "select * from apartments where title like ? AND  approved = '1' order by price DESC";
                         }
                     }
                 }
                 elseif($noOfBaths == '-'){
-                    $sql2 = "select * from apartments where title like '%{$SearchPhrase}%' AND beds = '{$noOfRooms}' AND  approved = '1'";
+                    $sql2 = "select * from apartments where title like ? AND beds = ? AND  approved = '1'";
                     if(isset($_POST["filterSub"])){
-                        $sql2 = "select * from apartments where title like '%{$SearchPhrase}%' AND baths = '{$noOfBaths}' AND  approved = '1' order by price ASC";
+                        $sql2 = "select * from apartments where title like ? AND baths = ? AND  approved = '1' order by price ASC";
                     }
                 }
-                $result2 = $conn->query($sql2);
+                
+                $stmt2 = $conn->prepare($sql2);
+                $searchPattern = "%{$SearchPhrase}%";
+                
+                if($noOfRooms == '-' && $noOfBaths == '-'){
+                    $stmt2->bind_param("s", $searchPattern);
+                } elseif($noOfRooms == '-'){
+                    $stmt2->bind_param("ss", $searchPattern, $noOfBaths);
+                } elseif($noOfBaths == '-'){
+                    $stmt2->bind_param("ss", $searchPattern, $noOfRooms);
+                } else {
+                    $stmt2->bind_param("sss", $searchPattern, $noOfRooms, $noOfBaths);
+                }
+                
+                $stmt2->execute();
+                $result2 = $stmt2->get_result();
 
                 if($result2 -> num_rows>0){
                     while($row = $result2 -> fetch_assoc()){
