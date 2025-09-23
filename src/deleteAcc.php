@@ -16,8 +16,8 @@
     }  
 
     $sql2 = "DELETE FROM users WHERE email = ? AND accType = ?";
-    $sqlDeleteAprt = "DELETE FROM apartments WHERE sellerMail = '$email'";
-    $sqlDeletefav = "DELETE FROM userfavs WHERE email = '$email' AND accType = '$acc'";
+    $sqlDeleteAprt = "DELETE FROM apartments WHERE sellerMail = ?";
+    $sqlDeletefav = "DELETE FROM userfavs WHERE email = ? AND accType = ?";
 
     $stmt2 = $conn->prepare($sql2);
     $stmt2->bind_param("ss", $email, $acc);
@@ -26,10 +26,14 @@
             unlink("$dp");
         }
         if($acc == 'seller'){
-            mysqli_query($conn,$sqlDeleteAprt);
+            $stmtDeleteAprt = $conn->prepare($sqlDeleteAprt);
+            $stmtDeleteAprt->bind_param("s", $email);
+            $stmtDeleteAprt->execute();
         }
-        
-        mysqli_query($conn,$sqlDeletefav);
+
+        $stmtDeletefav = $conn->prepare($sqlDeletefav);
+        $stmtDeletefav->bind_param("ss", $email, $acc);
+        $stmtDeletefav->execute();
 
         echo "<script>
                 alert('Successfully deleted!');
