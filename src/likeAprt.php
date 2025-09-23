@@ -9,8 +9,11 @@ $acc = $_GET['accType'];
 $id = $_GET['id'];
 $url = $_GET['bkpg'];
 
-$sqlFav = "SELECT aprtID FROM userfavs WHERE email = '$email' AND accType = '$acc' AND aprtID = '$id'";
-$favResult = $conn -> query($sqlFav);
+$sqlFav = "SELECT aprtID FROM userfavs WHERE email = ? AND accType = ? AND aprtID = ?";
+$stmtFav = $conn->prepare($sqlFav);
+$stmtFav->bind_param("ssi", $email, $acc, $id);
+$stmtFav->execute();
+$favResult = $stmtFav->get_result();
 if($favResult -> num_rows >0){
     while($favRow = $favResult -> fetch_assoc()){
         $favId = $favRow['aprtID'];
