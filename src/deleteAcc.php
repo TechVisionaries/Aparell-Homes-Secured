@@ -6,9 +6,12 @@
     $email = $_GET['email'];
     $acc = $_GET['accType'];
 
-    $sql = "SELECT profile FROM users WHERE email = '$email' AND accType = '$acc'";
+    $sql = "SELECT profile FROM users WHERE email = ? AND accType = ?";
 
-    $result = $conn -> query($sql);
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("ss", $email, $acc);
+    $stmt->execute();
+    $result = $stmt->get_result();
     if($result->num_rows>0){
         while($row = $result -> fetch_assoc()){
             $dp = $row['profile'];
