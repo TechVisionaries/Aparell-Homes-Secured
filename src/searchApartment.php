@@ -229,8 +229,11 @@
                                     echo "<script>document.getElementById('heart$id').style.display = 'block';</script>";
 
                                     // to chk if ad is liked
-                                    $sqlFav = "SELECT aprtID FROM userfavs WHERE email = '$email' AND accType = '$acc' AND aprtID='$id'";
-                                    $favResult = $conn -> query($sqlFav);
+                                    $sqlFav = "SELECT aprtID FROM userfavs WHERE email = ? AND accType = ? AND aprtID = ?";
+                                    $stmtFav = $conn->prepare($sqlFav);
+                                    $stmtFav->bind_param("ssi", $email, $acc, $id);
+                                    $stmtFav->execute();
+                                    $favResult = $stmtFav->get_result();
                 
                                     while($favRow = $favResult -> fetch_assoc()){
                                         $favId = $favRow['aprtID'];
@@ -296,8 +299,11 @@
                                     echo "<script>document.getElementById('heart$id').style.display = 'block';</script>";
 
                                     // to chk if ad is liked
-                                    $sqlFav = "SELECT aprtID FROM userfavs WHERE email = '$email' AND accType = '$acc' AND aprtID='$id'";
-                                    $favResult = $conn -> query($sqlFav);
+                                    $sqlFav = "SELECT aprtID FROM userfavs WHERE email = ? AND accType = ? AND aprtID = ?";
+                                    $stmtFav = $conn->prepare($sqlFav);
+                                    $stmtFav->bind_param("ssi", $email, $acc, $id);
+                                    $stmtFav->execute();
+                                    $favResult = $stmtFav->get_result();
                 
                                     while($favRow = $favResult -> fetch_assoc()){
                                         $favId = $favRow['aprtID'];
