@@ -36,9 +36,11 @@
     }
 
     //insert values
-    $sqlInsert = "INSERT INTO users(email,fName,lName,addrs,accType,phoneNo,password) VALUES('$email','$firstName','$lastName','$address','$accType','$phone','$pwd');";
+    $sqlInsert = "INSERT INTO users(email,fName,lName,addrs,accType,phoneNo,password) VALUES(?,?,?,?,?,?,?)";
+    $stmt = $conn->prepare($sqlInsert);
+    $stmt->bind_param("sssssss", $email, $firstName, $lastName, $address, $accType, $phone, $pwd);
 
-    if(mysqli_query($conn,$sqlInsert)){
+    if($stmt->execute()){
         echo "<script>
                 alert('Successfully Registered!');
                 window.location.replace('ManageUsers.php');
