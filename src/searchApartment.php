@@ -96,7 +96,13 @@
                     <option value="ForSell">For sell</option>
                     <option value="ForRent">For rent</option>
                 </select>
-                <input type="text" name="search" placeholder="search.." value="<?php if(isset($_POST["SearchSubmitbtn"])){echo htmlspecialchars($SearchPhrase, ENT_QUOTES, 'UTF-8');} ?>" class="search">
+                <input 
+                    type="text" 
+                    name="search" 
+                    placeholder="search.." 
+                    value="<?php if(isset($_POST["SearchSubmitbtn"])){echo htmlspecialchars($SearchPhrase, ENT_QUOTES, 'UTF-8');} ?>" 
+                    class="search"
+                >
                
                 <div class="dropdown">
                     <p style="margin:0px 0px ; font-size: 18px;">Filter</p>
