@@ -50,7 +50,13 @@
                 <center>
                     <!-- Submit Button -->
                     <button id="submitBtn">Login</button>
-
+                    <!-- Add this inside your form, before the submit button -->
+                    <div style="text-align: center; margin: 20px 0;">
+                        <p>Or login with:</p>
+                        <a href="google-login.php" style="border-radius: 5px; text-decoration: none; display: inline-block;">
+                            <img src="images/google-icon.png" width="200" style="vertical-align: middle; margin-right: 5px;">
+                        </a>
+                    </div>
                     <!-- login -->
                     <p>Not Registered? <a href="register.html">sign up</a></p>
                 </center>
