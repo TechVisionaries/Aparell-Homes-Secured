@@ -79,9 +79,12 @@
              /* selected apartment details*/ 
             $apartmentID=$_GET["apartmentID"];
 
-            $sql = "select * from apartments A, users U where A.sellerMail = U.email AND U.accType = 'seller' AND aprtID={$apartmentID}";
+            $sql = "select * from apartments A, users U where A.sellerMail = U.email AND U.accType = 'seller' AND aprtID=?";
             $city = "";
-            $result = $conn->query($sql);
+            $stmt = $conn->prepare($sql);
+            $stmt->bind_param("i", $apartmentID);
+            $stmt->execute();
+            $result = $stmt->get_result();
             
             if($result -> num_rows>0){
                 while($row = $result->fetch_assoc()){
@@ -111,8 +114,11 @@
                 
             }
             /* Similar aprtment details */
-            $sql2 = "select * from apartments where city='{$city}' and aprtID != '{$apartmentID}'";
-            $result2 = $conn->query($sql2);
+            $sql2 = "select * from apartments where city=? and aprtID != ?";
+            $stmt2 = $conn->prepare($sql2);
+            $stmt2->bind_param("si", $city, $apartmentID);
+            $stmt2->execute();
+            $result2 = $stmt2->get_result();
             
             if($result -> num_rows>0){
                 echo "<center><h1>Similar Ads</h1></center><center>";

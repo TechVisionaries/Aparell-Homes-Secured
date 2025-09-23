@@ -10,9 +10,11 @@
     $pwd = $_POST['pwd'] ?? '';
     $accType = $_POST['accType'] ?? '';
 
-    $sql = "SELECT * FROM users WHERE email='$email' AND password='$pwd' AND accType='$accType'";
-
-    $result = $conn->query($sql);
+    $sql = "SELECT * FROM users WHERE email=? AND password=? AND accType=?";
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("sss", $email, $pwd, $accType);
+    $stmt->execute();
+    $result = $stmt->get_result();
 
     $row = $result->fetch_assoc();
 

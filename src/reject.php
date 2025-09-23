@@ -6,9 +6,12 @@
     $id = $_GET['aprtID'];
     $sql = "UPDATE apartments 
             SET approved = '0'
-            WHERE aprtID = $id";
+            WHERE aprtID = ?";
+    
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("i", $id);
 
-    if(mysqli_query($conn,$sql)){
+    if($stmt->execute()){
         echo "<script>
                 alert('Successfully reejected!');
                 window.location.replace('toApprove.php');

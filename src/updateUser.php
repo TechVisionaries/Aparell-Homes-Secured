@@ -17,15 +17,18 @@
 
     //update values
     $sql = "UPDATE users
-            SET fName = '$firstName',
-                lName = '$lastName',
-                addrs = '$address',
-                phoneNo = $phone,
-                password = '$pwd'
-            WHERE email = '$email' AND accType = '$accType'";  
+            SET fName = ?,
+                lName = ?,
+                addrs = ?,
+                phoneNo = ?,
+                password = ?
+            WHERE email = ? AND accType = ?";  
+    
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("sssisss", $firstName, $lastName, $address, $phone, $pwd, $email, $accType);
             
 
-    if(mysqli_query($conn,$sql)){
+    if($stmt->execute()){
         echo "<script>
                 alert('Successfully Updated!');
                 window.location.replace('ManageUsers.php');

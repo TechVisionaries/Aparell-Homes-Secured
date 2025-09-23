@@ -6,9 +6,12 @@
 require "checkAccTypeSeller.php";
 
     $id = $_GET['aprtID'];
-    $sql = "SELECT * FROM apartments WHERE aprtID = $id";
+    $sql = "SELECT * FROM apartments WHERE aprtID = ?";
 
-    $result = $conn->query($sql);
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("i", $id);
+    $stmt->execute();
+    $result = $stmt->get_result();
     $row = $result->fetch_assoc();
 
     $adType = $row['adType'];
@@ -71,12 +74,12 @@ require "checkAccTypeSeller.php";
 
         <!-- Post Ad form -->
         <div id="form">
-            <form action='updateAprt.php?<?php echo"aprtID=$id" ?>' method="post" id="aprtForm">    
+            <form action='updateAprt.php?<?php echo "aprtID=" . htmlspecialchars($id, ENT_QUOTES, 'UTF-8') ?>' method="post" id="aprtForm">    
             <h1>Post Ad</h1>
 
                 <!-- Ad ID -->
                 <label>ID </label>
-                <input type="text" id="id" name="id" value='<?php echo $_GET["aprtID"] ?>' disabled>
+                <input type="text" id="id" name="id" value='<?php echo htmlspecialchars($_GET["aprtID"], ENT_QUOTES, 'UTF-8') ?>' disabled>
 
                 <br>
 

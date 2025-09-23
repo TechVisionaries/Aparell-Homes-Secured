@@ -116,8 +116,11 @@
         $Message=htmlspecialchars($_POST['Message']);
         $email=htmlspecialchars($_POST['email']);
 
-        $sqlInsert = "INSERT INTO contactus(firstName,lastName,message,email) VALUES('$fname','$lname','$Message','$email');";
-        if(mysqli_query($conn,$sqlInsert)){
+        $sqlInsert = "INSERT INTO contactus(firstName,lastName,message,email) VALUES(?,?,?,?)";
+        $stmt = $conn->prepare($sqlInsert);
+        $stmt->bind_param("ssss", $fname, $lname, $Message, $email);
+        
+        if($stmt->execute()){
             echo "<script>
                     alert('Massege Successfully Sent!');
                     window.location.href=('contactUs.php');

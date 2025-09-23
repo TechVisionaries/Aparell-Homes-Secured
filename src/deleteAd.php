@@ -7,7 +7,7 @@
 
     //DELTE values
     $sql = "DELETE FROM apartments 
-            WHERE aprtID = $id";
+            WHERE aprtID = ?";
 
     $sql2 = "SELECT img1, img2, img3 FROM apartments";  
 
@@ -20,7 +20,10 @@
         }
     }  
 
-    if(mysqli_query($conn,$sql)){
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("i", $id);
+
+    if($stmt->execute()){
         if($img1 != ''){
             unlink("$img1");
         }

@@ -21,22 +21,25 @@
 
     //update values
     $sql = "UPDATE apartments 
-            SET adType = '$adType',
-                beds = '$beds',
-                baths = '$baths',
-                size = '$size',
-                country = '$country',
-                city = '$city',
-                town = '$town',
-                addrs = '$addrs',
-                title = '$title',
-                description = '$description',
-                price = '$price',
-                negotiable = '$nego', 
+            SET adType = ?,
+                beds = ?,
+                baths = ?,
+                size = ?,
+                country = ?,
+                city = ?,
+                town = ?,
+                addrs = ?,
+                title = ?,
+                description = ?,
+                price = ?,
+                negotiable = ?, 
                 approved = 'NULL'
-            WHERE aprtID = $id";
+            WHERE aprtID = ?";
 
-    if(mysqli_query($conn,$sql)){
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("siiissssssiii", $adType, $beds, $baths, $size, $country, $city, $town, $addrs, $title, $description, $price, $nego, $id);
+
+    if($stmt->execute()){
         echo "<script>
                 alert('Successfully Updated!');
                 window.location.replace('pendingAprovals.php');

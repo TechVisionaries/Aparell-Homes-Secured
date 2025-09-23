@@ -19,7 +19,7 @@ if (isset($_GET['email'])) {
 
 $validAccTypes = ['buyer', 'seller', 'staff'];
 $acc = '';
-if (isset($_GET['accType']) && in_array($_GET['accType'], $validAccTypes)) {
+if (isset($_GET['accType']) && in_array($_GET['accType'], $validAccTypes, true)) {
     $acc = substr($_GET['accType'], 0, MAX_ACC_TYPE_LENGTH);
 }
 
@@ -33,11 +33,11 @@ if (isset($_GET['id'])) {
 
 $validPages = ['searchApartment', 'favourites', 'myAds'];
 $url = '';
-if (isset($_GET['bkpg']) && in_array($_GET['bkpg'], $validPages)) {
+if (isset($_GET['bkpg']) && in_array($_GET['bkpg'], $validPages, true)) {
     $url = substr($_GET['bkpg'], 0, MAX_URL_LENGTH);
 }
 
-if (empty($email) || empty($acc) || $id === 0 || empty($url)) {
+if ($email === '' || $acc === '' || $id === 0 || $url === '') {
     header('HTTP/1.1 400 Bad Request');
     exit('Invalid parameters provided');
 }
@@ -47,21 +47,16 @@ $sqlFav->bind_param("ssi", $email, $acc, $id);
 $sqlFav->execute();
 $favResult = $sqlFav->get_result();
 
-if($favResult && $favResult->num_rows > 0){
-    while($favRow = $favResult->fetch_assoc()){
-        $favId = $favRow['aprtID'];
+if ($favResult && $favResult->num_rows > 0) {
+    $sqlDeleteLike = $conn->prepare("DELETE FROM userfavs WHERE email = ? AND accType = ? AND aprtID = ?");
+    $sqlDeleteLike->bind_param("ssi", $email, $acc, $id);
+    $sqlDeleteLike->execute();
 
-        $sqlDeleteLike = $conn->prepare("DELETE FROM userfavs WHERE email = ? AND accType = ? AND aprtID = ?");
-        $sqlDeleteLike->bind_param("ssi", $email, $acc, $id);
-        $sqlDeleteLike->execute();
-
-        echo "<script>
-                var linkid = " . json_encode($url) . "+'.php#Ad'+".json_encode((string)$id).";
-                window.location.replace(linkid);
-            </script>";
-    }
-}
-else{
+    echo "<script>
+            var linkid = " . json_encode($url) . "+'.php#Ad'+".json_encode((string)$id).";
+            window.location.replace(linkid);
+        </script>";
+} else {
     $sqlAddLike = $conn->prepare("INSERT INTO userfavs(email,accType,aprtID) VALUES(?,?,?)");
     $sqlAddLike->bind_param("ssi", $email, $acc, $id);
     $sqlAddLike->execute();
@@ -70,6 +65,6 @@ else{
             var linkid = " . json_encode($url) . "+'.php#Ad'+".json_encode((string)$id).";
             window.location.replace(linkid);
         </script>";
-} 
+}
 
 ?>
