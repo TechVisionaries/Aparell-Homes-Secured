@@ -111,8 +111,11 @@
             $name = $_POST['cardName'];
             $expDate = $_POST['ExDate'];
 
-            $sqlContact = " insert into payment(paymentType,package,email,cardNo,name,expiryDate) values('$typePay', '$package', '$email','$cardno','$name','$expDate')";
-            if(mysqli_query($conn,$sqlContact)){
+            $sqlContact = "insert into payment(paymentType,package,email,cardNo,name,expiryDate) values(?,?,?,?,?,?)";
+            $stmt = $conn->prepare($sqlContact);
+            $stmt->bind_param("sssiss", $typePay, $package, $email, $cardno, $name, $expDate);
+            
+            if($stmt->execute()){
                 echo "<script>
                         alert('Payment Successfully!');
                         window.location.replace('payment.php');
