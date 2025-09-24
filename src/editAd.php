@@ -4,10 +4,32 @@
 <?php
 require "checkAccTypeSeller.php";
 
-    $id = $_GET['aprtID'];
-    $sql = "SELECT * FROM apartments WHERE aprtID = $id";
+    // Validate and sanitize the apartment ID
+    if (!isset($_GET['aprtID']) || !is_numeric($_GET['aprtID'])) {
+        echo "<script>
+                alert('Invalid apartment ID!');
+                window.location.replace('sellerDash.php');
+              </script>";
+        exit();
+    }
 
-    $result = $conn->query($sql);
+    $id = intval($_GET['aprtID']);
+    
+    // First check if the apartment exists and belongs to the current seller
+    $sql = "SELECT * FROM apartments WHERE aprtID = ? AND sellerMail = ?";
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("is", $id, $email);
+    $stmt->execute();
+    $result = $stmt->get_result();
+
+    if ($result->num_rows == 0) {
+        echo "<script>
+                alert('Access denied! You can only edit your own apartments.');
+                window.location.replace('sellerDash.php');
+              </script>";
+        exit();
+    }
+
     $row = $result->fetch_assoc();
 
     $adType = $row['adType'];
@@ -75,7 +97,7 @@ require "checkAccTypeSeller.php";
 
                 <!-- Ad ID -->
                 <label>ID </label>
-                <input type="text" id="id" name="id" value='<?php echo $_GET["aprtID"] ?>' disabled>
+                <input type="text" id="id" name="id" value='<?php echo $id ?>' disabled>
 
                 <br>
 
