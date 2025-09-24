@@ -27,6 +27,7 @@ require "checkAccTypeSeller.php";
 
             <!-- Profile icon -->
             <div id="profile">
+                <?php if (isset($_SESSION['LoginStat']) && $_SESSION['LoginStat'] === true): ?>
                 <img src="<?php echo $dp ?>" height="50px" alt="profile" onmouseover="showDpNav();" onmouseout="hideDpNav();" style="border-radius:50%";>
                 <div>
                     <ul id="dpNav" onmouseover="showDpNav();" onmouseout="hideDpNav();">
@@ -34,6 +35,9 @@ require "checkAccTypeSeller.php";
                         <a href="logout.php"><li>Log Out</li></a>
                     </ul>
                 </div>
+                <?php else: ?>
+                <style>#profile { display: none; }</style>
+                <?php endif; ?>
             </div>
 
             <!-- Dark Mode toggle switch

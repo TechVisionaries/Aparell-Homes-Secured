@@ -1,8 +1,9 @@
 <?php
+    session_start();
+    include_once 'error-handler.php';
     include_once 'config.php';
 ?>
 <?php
-    session_start();
     $email = $_SESSION['Email'];
     $acc = $_SESSION['AccType'];
 

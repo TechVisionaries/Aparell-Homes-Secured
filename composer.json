@@ -1,0 +1,8 @@
+{
+    "name": "techvisionaries/aparell-homes-secured",
+    "description": "Apartment Sales System",
+    "type": "project",
+    "require": {
+        "php": ">=8.0"
+    }
+}

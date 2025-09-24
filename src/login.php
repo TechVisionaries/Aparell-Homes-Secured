@@ -1,17 +1,19 @@
 <?php
-    include_once 'config.php'
+    ob_start();
+    session_start();
+    include_once 'error-handler.php';
+    include_once 'config.php';
 ?>
 <?php
+    $email = strtolower($_POST['email'] ?? '');
+    $pwd = $_POST['pwd'] ?? '';
+    $accType = $_POST['accType'] ?? '';
 
-    session_start();
-
-    $email = strtolower($_POST['email']);
-    $pwd = $_POST['pwd'];
-    $accType = $_POST['accType'];
-
-    $sql = "SELECT * FROM users WHERE email='$email' AND password='$pwd' AND accType='$accType'";
-
-    $result = $conn->query($sql);
+    $sql = "SELECT * FROM users WHERE email=? AND password=? AND accType=?";
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("sss", $email, $pwd, $accType);
+    $stmt->execute();
+    $result = $stmt->get_result();
 
     $row = $result->fetch_assoc();
 
@@ -27,19 +29,20 @@
         $_SESSION['profile'] = $row['profile'];
         $_SESSION['LoginStat'] = true;
 
-        echo "<script>alert('Login Successfull!');</script>";
-
         if($row['accType'] == 'buyer'){
             $_SESSION['BuyerSignedIn'] = true;
-            echo "<script>window.location.replace('buyerDash.php')</script>";
+            header("Location: buyerDash.php");
+            exit();
         }
         elseif($row['accType'] == 'seller'){
             $_SESSION['SellerSignedIn'] = true;
-            echo "<script>window.location.replace('sellerDash.php')</script>";
+            header("Location: sellerDash.php");
+            exit();
         }
         elseif($row['accType'] == 'staff'){
             $_SESSION['StaffSignedIn'] = true;
-            echo "<script>window.location.replace('staffDash.php')</script>";
+            header("Location: staffDash.php");
+            exit();
         }
     }
     else{
@@ -55,5 +58,5 @@
     }
 
     mysqli_close($conn);
-
+    ob_end_flush();
 ?>

@@ -1,9 +1,13 @@
 
-<?php
-require_once "config.php";
+<?php    
+    session_start();
+    require_once "config.php";
 ?>
 <?php
-    session_start();
+
+    $logStat = false;
+    $acc = '';
+    $dp = 'images/user.png';
 
     // Generate CSRF token if it doesn't exist
     if (empty($_SESSION['csrf_token'])) {
@@ -57,6 +61,7 @@ require_once "config.php";
             
             <!-- Profile icon -->
             <div id="profile">
+                <?php if ($logStat === true): ?>
                 <img src="<?php echo $dp ?>" height="50px" alt="profile" onmouseover="showDpNav();" onmouseout="hideDpNav();" style="border-radius:50%";>
                 <div>
                     <ul id="dpNav" onmouseover="showDpNav();" onmouseout="hideDpNav();">
@@ -64,6 +69,9 @@ require_once "config.php";
                         <a href="logout.php"><li>Log Out</li></a>
                     </ul>
                 </div>
+                <?php else: ?>
+                    <style>#profile { display: none; }</style>
+                <?php endif; ?>
             </div>
 
             <!-- Dark Mode toggle switch
@@ -109,6 +117,7 @@ require_once "config.php";
         
         <?php
         if(isset($_POST["submit"])){
+
             // Validate CSRF token
             if (!isset($_POST['csrf_token']) || !hash_equals($_SESSION['csrf_token'], $_POST['csrf_token'])) {
                 echo "<script>
@@ -137,6 +146,29 @@ require_once "config.php";
                         window.location.href=('contactUs.php');
                       </script>";
             }
+
+        $fname=htmlspecialchars($_POST['fname']);
+        $lname=htmlspecialchars($_POST['lname']);
+        $Message=htmlspecialchars($_POST['Message']);
+        $email=htmlspecialchars($_POST['email']);
+
+        $sqlInsert = "INSERT INTO contactus(firstName,lastName,message,email) VALUES(?,?,?,?)";
+        $stmt = $conn->prepare($sqlInsert);
+        $stmt->bind_param("ssss", $fname, $lname, $Message, $email);
+        
+        if($stmt->execute()){
+            echo "<script>
+                    alert('Massege Successfully Sent!');
+                    window.location.href=('contactUs.php');
+                  </script>";
+            
+        }
+        else{
+            echo "<script>
+                    alert('Massege Not Delivered!');
+                    window.location.href=('contactUs.php');
+                  </script>";
+
         }
     
         mysqli_close($conn);

@@ -1,4 +1,5 @@
 <?php
+    include_once 'error-handler.php';
     include_once 'config.php';
     require_once 'checkAccTypeSeller.php';
 ?>
@@ -68,10 +69,18 @@
                 price = ?,
                 negotiable = ?, 
                 approved = 'NULL'
+
             WHERE aprtID = ? AND sellerMail = ?";
 
     $stmt = $conn->prepare($sql);
     $stmt->bind_param("siiisisssiiiis", $adType, $beds, $baths, $size, $country, $city, $town, $addrs, $title, $description, $price, $nego, $id, $email);
+
+
+            WHERE aprtID = ?";
+
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("siiissssssiii", $adType, $beds, $baths, $size, $country, $city, $town, $addrs, $title, $description, $price, $nego, $id);
+
 
     if($stmt->execute()){
         echo "<script>

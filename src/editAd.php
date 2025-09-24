@@ -1,8 +1,10 @@
 <?php
+    include_once "error-handler.php";
     include_once "config.php";
 ?>
 <?php
 require "checkAccTypeSeller.php";
+
 
     // Validate and sanitize the apartment ID
     if (!isset($_GET['aprtID']) || !is_numeric($_GET['aprtID'])) {
@@ -29,6 +31,15 @@ require "checkAccTypeSeller.php";
               </script>";
         exit();
     }
+
+
+    $id = $_GET['aprtID'];
+    $sql = "SELECT * FROM apartments WHERE aprtID = ?";
+
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("i", $id);
+    $stmt->execute();
+    $result = $stmt->get_result();
 
     $row = $result->fetch_assoc();
 
@@ -92,12 +103,16 @@ require "checkAccTypeSeller.php";
 
         <!-- Post Ad form -->
         <div id="form">
-            <form action='updateAprt.php?<?php echo"aprtID=$id" ?>' method="post" id="aprtForm">    
+            <form action='updateAprt.php?<?php echo "aprtID=" . htmlspecialchars($id, ENT_QUOTES, 'UTF-8') ?>' method="post" id="aprtForm">    
             <h1>Post Ad</h1>
 
                 <!-- Ad ID -->
                 <label>ID </label>
+
                 <input type="text" id="id" name="id" value='<?php echo $id ?>' disabled>
+
+                <input type="text" id="id" name="id" value='<?php echo htmlspecialchars($_GET["aprtID"], ENT_QUOTES, 'UTF-8') ?>' disabled>
+
 
                 <br>
 

@@ -1,10 +1,14 @@
 
 <?php
-require_once "config.php";
+    session_start();
+    require_once "config.php";
 ?>
 <?php
-    session_start();
 
+    $logStat = false;
+    $acc = '';
+    $dp = 'images/user.png';
+    
     if(isset($_SESSION['LoginStat'])){
         $logStat = $_SESSION['LoginStat'];
 
@@ -50,6 +54,7 @@ require_once "config.php";
 
             <!-- Profile icon -->
             <div id="profile">
+                <?php if ($logStat === true): ?>
                 <img src="<?php echo $dp ?>" height="50px" alt="profile" onmouseover="showDpNav();" onmouseout="hideDpNav();" style="border-radius:50%";>
                 <div>
                     <ul id="dpNav" onmouseover="showDpNav();" onmouseout="hideDpNav();">
@@ -57,6 +62,9 @@ require_once "config.php";
                         <a href="logout.php"><li>Log Out</li></a>
                     </ul>
                 </div>
+                <?php else: ?>
+                    <style>#profile { display: none; }</style>
+                <?php endif; ?>
             </div>
 
             <!-- Dark Mode toggle switch
@@ -71,9 +79,12 @@ require_once "config.php";
              /* selected apartment details*/ 
             $apartmentID=$_GET["apartmentID"];
 
-            $sql = "select * from apartments A, users U where A.sellerMail = U.email AND U.accType = 'seller' AND aprtID={$apartmentID}";
+            $sql = "select * from apartments A, users U where A.sellerMail = U.email AND U.accType = 'seller' AND aprtID=?";
             $city = "";
-            $result = $conn->query($sql);
+            $stmt = $conn->prepare($sql);
+            $stmt->bind_param("i", $apartmentID);
+            $stmt->execute();
+            $result = $stmt->get_result();
             
             if($result -> num_rows>0){
                 while($row = $result->fetch_assoc()){
@@ -103,8 +114,11 @@ require_once "config.php";
                 
             }
             /* Similar aprtment details */
-            $sql2 = "select * from apartments where city='{$city}' and aprtID != '{$apartmentID}'";
-            $result2 = $conn->query($sql2);
+            $sql2 = "select * from apartments where city=? and aprtID != ?";
+            $stmt2 = $conn->prepare($sql2);
+            $stmt2->bind_param("si", $city, $apartmentID);
+            $stmt2->execute();
+            $result2 = $stmt2->get_result();
             
             if($result -> num_rows>0){
                 echo "<center><h1>Similar Ads</h1></center><center>";

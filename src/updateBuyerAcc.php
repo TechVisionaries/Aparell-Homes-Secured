@@ -1,4 +1,5 @@
 <?php
+    include_once 'error-handler.php';
     include_once 'config.php';
 ?>
 <?php
@@ -38,17 +39,21 @@
 
     //update values
     $sql2 = "UPDATE users
-            SET fName = '$firstN',
-                lName = '$lastN',
-                addrs = '$addr',
-                phoneNo = $phone,
-                password = '$pwd',
-                profile = '$target_file'
-            WHERE email = '$email' AND accType = '$accType';";  
-    
+            SET fName = ?,
+                lName = ?,
+                addrs = ?,
+                phoneNo = ?,
+                password = ?,
+                profile = ?
+            WHERE email = ? AND accType = ?";
+
+    $stmt2 = $conn->prepare($sql2);
+    $stmt2->bind_param("sssssssss", $firstN, $lastN, $addr, $phone, $pwd, $target_file, $email, $accType);
+    $stmt2->execute();
+
     //check connection        
     //display sccessful message
-    if(mysqli_query($conn,$sql2)){
+    if($stmt2->affected_rows > 0){
         echo "<script>
                 var acctype = '$accType';
                 alert('Successfully Updated!');

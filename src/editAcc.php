@@ -1,4 +1,5 @@
 <?php
+    include_once 'error-handler.php';
     include_once 'config.php';
 ?>
 <?php
@@ -9,9 +10,11 @@
     $_SESSION['ManageUserMail'] = $email;
     $_SESSION['ManageUseraccType'] = $acc;
 
-    $sql = "SELECT * FROM users WHERE email = '$email' AND accType = '$acc'";
-    
-    $result = $conn -> query($sql);
+    $sql = "SELECT * FROM users WHERE email = ? AND accType = ?";
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("ss", $email, $acc);
+    $stmt->execute();
+    $result = $stmt->get_result();
 
     while($row = $result -> fetch_assoc()){
         $fname = $row['fName'];
@@ -187,7 +190,7 @@ div {
                 <img src="<?php echo $dp ?>" height="50px" alt="profile" onmouseover="showDpNav();" onmouseout="hideDpNav();" style="border-radius:50%";>
                 <div>
                     <ul id="dpNav" onmouseover="showDpNav();" onmouseout="hideDpNav();">
-                        <a href="<?php echo $acc ?>Dash.php"><li style="margin-top: 35px; border-top-left-radius: 5px; border-top-right-radius: 5px;">Dashboard</li></a>
+                        <a href="<?php echo htmlspecialchars($acc, ENT_QUOTES, 'UTF-8') ?>Dash.php"><li style="margin-top: 35px; border-top-left-radius: 5px; border-top-right-radius: 5px;">Dashboard</li></a>
                         <a href="logout.php"><li>Log Out</li></a>
                     </ul>
                 </div>
@@ -219,14 +222,14 @@ div {
     <label for="email">E-mail</label>
     </div>
     <div class="form">
-    <input type="text" id="email" name="mail" disabled  value='<?php echo$email ?>'><br>
+    <input type="text" id="email" name="mail" disabled  value='<?php echo htmlspecialchars($email, ENT_QUOTES, 'UTF-8') ?>'><br>
     </div>
 
     <div class="formName">
     <label for="type">Account Type</label>
     </div>
     <div class="form">
-        <input type="text" id="type" name="type" disabled  value='<?php echo$acc ?>'><br>
+        <input type="text" id="type" name="type" disabled  value='<?php echo htmlspecialchars($acc, ENT_QUOTES, 'UTF-8') ?>'><br>
     </div>
 
     <div class="formName">

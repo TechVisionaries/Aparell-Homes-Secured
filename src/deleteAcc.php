@@ -1,32 +1,42 @@
 <?php
+    include_once 'error-handler.php';
     include_once 'config.php';
 ?>
 <?php
     $email = $_GET['email'];
     $acc = $_GET['accType'];
 
-    $sql = "SELECT profile FROM users WHERE email = '$email' AND accType = '$acc'";
+    $sql = "SELECT profile FROM users WHERE email = ? AND accType = ?";
 
-    $result = $conn -> query($sql);
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("ss", $email, $acc);
+    $stmt->execute();
+    $result = $stmt->get_result();
     if($result->num_rows>0){
         while($row = $result -> fetch_assoc()){
             $dp = $row['profile'];
         }
     }  
 
-    $sql2 = "DELETE FROM users WHERE email = '$email' AND accType = '$acc'";
-    $sqlDeleteAprt = "DELETE FROM apartments WHERE sellerMail = '$email'";
-    $sqlDeletefav = "DELETE FROM userfavs WHERE email = '$email' AND accType = '$acc'";
+    $sql2 = "DELETE FROM users WHERE email = ? AND accType = ?";
+    $sqlDeleteAprt = "DELETE FROM apartments WHERE sellerMail = ?";
+    $sqlDeletefav = "DELETE FROM userfavs WHERE email = ? AND accType = ?";
 
-    if(mysqli_query($conn,$sql2)){
+    $stmt2 = $conn->prepare($sql2);
+    $stmt2->bind_param("ss", $email, $acc);
+    if($stmt2->execute()){
         if($dp != "images/user.png"){
             unlink("$dp");
         }
         if($acc == 'seller'){
-            mysqli_query($conn,$sqlDeleteAprt);
+            $stmtDeleteAprt = $conn->prepare($sqlDeleteAprt);
+            $stmtDeleteAprt->bind_param("s", $email);
+            $stmtDeleteAprt->execute();
         }
-        
-        mysqli_query($conn,$sqlDeletefav);
+
+        $stmtDeletefav = $conn->prepare($sqlDeletefav);
+        $stmtDeletefav->bind_param("ss", $email, $acc);
+        $stmtDeletefav->execute();
 
         echo "<script>
                 alert('Successfully deleted!');
@@ -35,7 +45,7 @@
     }
     else{
         echo "<script>
-                let type = '$acc';
+                let type = " . json_encode($acc) . ";
                 alert('Unsuccessfull!');
                 window.location.replace(type+'Dash.php');
               </script>";

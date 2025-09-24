@@ -9,6 +9,10 @@
 <?php
     session_start();
 
+    $logStat = false;
+    $acc = '';
+    $dp = 'images/user.png';
+    
     if(isset($_SESSION['LoginStat'])){
         $logStat = $_SESSION['LoginStat'];
 
@@ -65,6 +69,7 @@
 
             <!-- Profile icon -->
             <div id="profile">
+                <?php if ($logStat === true): ?>
                 <img src="<?php echo $dp ?>" height="50px" alt="profile" onmouseover="showDpNav();" onmouseout="hideDpNav();" style="border-radius:50%";>
                 <div>
                     <ul id="dpNav" onmouseover="showDpNav();" onmouseout="hideDpNav();">
@@ -72,6 +77,9 @@
                         <a href="logout.php"><li>Log Out</li></a>
                     </ul>
                 </div>
+                <?php else: ?>
+                    <style>#profile { display: none; }</style>
+                <?php endif; ?>
             </div>
 
             <!-- Dark Mode toggle switch
@@ -88,7 +96,13 @@
                     <option value="ForSell">For sell</option>
                     <option value="ForRent">For rent</option>
                 </select>
-                <input type="text" name="search" placeholder="search.." value="<?php if(isset($_POST["SearchSubmitbtn"])){echo "$SearchPhrase";} ?>" class="search">
+                <input 
+                    type="text" 
+                    name="search" 
+                    placeholder="search.." 
+                    value="<?php if(isset($_POST["SearchSubmitbtn"])){echo htmlspecialchars($SearchPhrase, ENT_QUOTES, 'UTF-8');} ?>" 
+                    class="search"
+                >
                
                 <div class="dropdown">
                     <p style="margin:0px 0px ; font-size: 18px;">Filter</p>
@@ -146,32 +160,47 @@
                 $filter = $_POST["sortBy"];
                 $flag = False;
                     
-                $sql2 = "select * from apartments where (title like '%{$SearchPhrase}%') AND (beds = '{$noOfRooms}') AND (baths = '{$noOfBaths}') AND  approved = '1'";
+                $sql2 = "select * from apartments where (title like ?) AND (beds = ?) AND (baths = ?) AND  approved = '1'";
                 if($noOfRooms == '-'){
-                    $sql2 = "select * from apartments where title like '%{$SearchPhrase}%' AND baths = '{$noOfBaths}' AND  approved = '1'";
+                    $sql2 = "select * from apartments where title like ? AND baths = ? AND  approved = '1'";
                     if($filter=='Low Price'){
-                        $sql2 = "select * from apartments where title like '%{$SearchPhrase}%' AND baths = '{$noOfBaths}' AND  approved = '1' order by price ASC";
+                        $sql2 = "select * from apartments where title like ? AND baths = ? AND  approved = '1' order by price ASC";
                     }
                     elseif($filter=='High Price'){
-                        $sql2 = "select * from apartments where title like '%{$SearchPhrase}%' AND baths = '{$noOfBaths}' AND  approved = '1' order by price DESC";
+                        $sql2 = "select * from apartments where title like ? AND baths = ? AND  approved = '1' order by price DESC";
                     }
                     if($noOfBaths == '-'){
-                        $sql2 = "SELECT * FROM apartments WHERE title LIKE '%$SearchPhrase%' AND  approved = '1'";
+                        $sql2 = "SELECT * FROM apartments WHERE title LIKE ? AND  approved = '1'";
                         if($filter=='Low Price'){
-                            $sql2 = "select * from apartments where title like '%{$SearchPhrase}%' AND  approved = '1' order by price ASC";
+                            $sql2 = "select * from apartments where title like ? AND  approved = '1' order by price ASC";
                         }
                         elseif($filter=='High Price'){
-                            $sql2 = "select * from apartments where title like '%{$SearchPhrase}%' AND  approved = '1' order by price DESC";
+                            $sql2 = "select * from apartments where title like ? AND  approved = '1' order by price DESC";
                         }
                     }
                 }
                 elseif($noOfBaths == '-'){
-                    $sql2 = "select * from apartments where title like '%{$SearchPhrase}%' AND beds = '{$noOfRooms}' AND  approved = '1'";
+                    $sql2 = "select * from apartments where title like ? AND beds = ? AND  approved = '1'";
                     if(isset($_POST["filterSub"])){
-                        $sql2 = "select * from apartments where title like '%{$SearchPhrase}%' AND baths = '{$noOfBaths}' AND  approved = '1' order by price ASC";
+                        $sql2 = "select * from apartments where title like ? AND baths = ? AND  approved = '1' order by price ASC";
                     }
                 }
-                $result2 = $conn->query($sql2);
+                
+                $stmt2 = $conn->prepare($sql2);
+                $searchPattern = "%{$SearchPhrase}%";
+                
+                if($noOfRooms == '-' && $noOfBaths == '-'){
+                    $stmt2->bind_param("s", $searchPattern);
+                } elseif($noOfRooms == '-'){
+                    $stmt2->bind_param("ss", $searchPattern, $noOfBaths);
+                } elseif($noOfBaths == '-'){
+                    $stmt2->bind_param("ss", $searchPattern, $noOfRooms);
+                } else {
+                    $stmt2->bind_param("sss", $searchPattern, $noOfRooms, $noOfBaths);
+                }
+                
+                $stmt2->execute();
+                $result2 = $stmt2->get_result();
 
                 if($result2 -> num_rows>0){
                     while($row = $result2 -> fetch_assoc()){
@@ -206,8 +235,11 @@
                                     echo "<script>document.getElementById('heart$id').style.display = 'block';</script>";
 
                                     // to chk if ad is liked
-                                    $sqlFav = "SELECT aprtID FROM userfavs WHERE email = '$email' AND accType = '$acc' AND aprtID='$id'";
-                                    $favResult = $conn -> query($sqlFav);
+                                    $sqlFav = "SELECT aprtID FROM userfavs WHERE email = ? AND accType = ? AND aprtID = ?";
+                                    $stmtFav = $conn->prepare($sqlFav);
+                                    $stmtFav->bind_param("ssi", $email, $acc, $id);
+                                    $stmtFav->execute();
+                                    $favResult = $stmtFav->get_result();
                 
                                     while($favRow = $favResult -> fetch_assoc()){
                                         $favId = $favRow['aprtID'];
@@ -273,8 +305,11 @@
                                     echo "<script>document.getElementById('heart$id').style.display = 'block';</script>";
 
                                     // to chk if ad is liked
-                                    $sqlFav = "SELECT aprtID FROM userfavs WHERE email = '$email' AND accType = '$acc' AND aprtID='$id'";
-                                    $favResult = $conn -> query($sqlFav);
+                                    $sqlFav = "SELECT aprtID FROM userfavs WHERE email = ? AND accType = ? AND aprtID = ?";
+                                    $stmtFav = $conn->prepare($sqlFav);
+                                    $stmtFav->bind_param("ssi", $email, $acc, $id);
+                                    $stmtFav->execute();
+                                    $favResult = $stmtFav->get_result();
                 
                                     while($favRow = $favResult -> fetch_assoc()){
                                         $favId = $favRow['aprtID'];
