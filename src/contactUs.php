@@ -9,6 +9,11 @@
     $acc = '';
     $dp = 'images/user.png';
 
+    // Generate CSRF token if it doesn't exist
+    if (empty($_SESSION['csrf_token'])) {
+        $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
+    }
+
     if(isset($_SESSION['LoginStat'])){
         $logStat = $_SESSION['LoginStat'];
 
@@ -93,6 +98,7 @@
             </div>
             <div class="container5">
                 <form action ="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST">
+                <input type="hidden" name="csrf_token" value="<?php echo $_SESSION['csrf_token']; ?>">
                 <input type="text" id="fname" name="fname" placeholder="First Name" required>
                 <br><br>
                 <input type="text" id="lname" name="lname" placeholder="Last Name" required>
@@ -111,6 +117,36 @@
         
         <?php
         if(isset($_POST["submit"])){
+
+            // Validate CSRF token
+            if (!isset($_POST['csrf_token']) || !hash_equals($_SESSION['csrf_token'], $_POST['csrf_token'])) {
+                echo "<script>
+                        alert('Invalid request. Please try again.');
+                        window.location.href=('contactUs.php');
+                      </script>";
+                exit();
+            }
+
+            $fname=htmlspecialchars($_POST['fname']);
+            $lname=htmlspecialchars($_POST['lname']);
+            $Message=htmlspecialchars($_POST['Message']);
+            $email=htmlspecialchars($_POST['email']);
+
+            $sqlInsert = "INSERT INTO contactus(firstName,lastName,message,email) VALUES('$fname','$lname','$Message','$email');";
+            if(mysqli_query($conn,$sqlInsert)){
+                echo "<script>
+                        alert('Massege Successfully Sent!');
+                        window.location.href=('contactUs.php');
+                      </script>";
+                
+            }
+            else{
+                echo "<script>
+                        alert('Massege Not Delivered!');
+                        window.location.href=('contactUs.php');
+                      </script>";
+            }
+
         $fname=htmlspecialchars($_POST['fname']);
         $lname=htmlspecialchars($_POST['lname']);
         $Message=htmlspecialchars($_POST['Message']);
@@ -132,8 +168,8 @@
                     alert('Massege Not Delivered!');
                     window.location.href=('contactUs.php');
                   </script>";
+
         }
-    }
     
         mysqli_close($conn);
         ?>
